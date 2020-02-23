@@ -15,8 +15,9 @@ def line(katz_deli)
 end
 end
 
-def take_a_number(katz_deli, new_name)
-  katz_deli<< new_name
-  puts "Welcome #{new_name}. You are number #{katz_deli.size} in line."
+def take_a_number(katz_deli, name)
+  katz_deli << name
+  puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
 end
+
     
