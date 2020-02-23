@@ -14,3 +14,6 @@ def line(katz_deli)
   puts "The line is currently:#{output_message}"
 end
 end
+
+def take_a_number(katz_deli, new_name)
+  
