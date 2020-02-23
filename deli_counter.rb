@@ -18,7 +18,5 @@ end
 def take_a_number(katz_deli, new_name)
   #(puts) the person's name along with their position in line.
   katz_deli<< new_name
-  message = "";
-  katz_deli.each do |name|
-    message << "Welcome"
+  ""
     
