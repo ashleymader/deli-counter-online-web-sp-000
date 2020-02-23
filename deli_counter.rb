@@ -21,5 +21,8 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli)
+  if katz_deli == 0 
+    puts "The line is empty"
+  else
   puts "The line is currently serving #{katz_deli[0]}."
 end
